@@ -18,6 +18,7 @@ public class Game
 {
     Scanner input = new Scanner(System.in);
     Functions function = new Functions();
+    Player player = new player();
     ArrayList <Object> playersHand = new ArrayList();
     ArrayList <Integer> playersHandValue = new ArrayList();
     ArrayList <Object> dealersHand = new ArrayList();
